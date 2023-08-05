@@ -1,0 +1,23 @@
+/*making the overflow as hidden for the body of html page*/
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+/*filling the background of countries with color*/
+.earth {
+  fill: #7fcdff;
+}
+
+/*filling colors for the countries*/
+.countries {
+  fill: #1f8a70;
+  /*black border to the countries*/
+  stroke: black;
+  stroke-opacity: 0.5;
+}
+
+/*hovering the countries and defining color when hovered*/
+.countries:hover {
+  fill: #cc3636;
+}
